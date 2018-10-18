@@ -41,12 +41,12 @@
 			<a href="#" class="menu__item">Главная</a>
 			<a href="#" class="menu__item">Сервера</a>
 			<a href="#" class="menu__item">Личный кабинет</a>
-			<a href="#" class="menu__item menu__item_hidden">Вход</a>
-			<a href="#" class="menu__item menu__item_hidden">Регистрация</a>
+			<a href="#" class="menu__item menu__item_hidden login-switch">Вход</a>
+			<a href="#" class="menu__item menu__item_hidden reg-switch">Регистрация</a>
 		</nav>
 		<div class="flex-right">
-			<a href="#" class="button">Вход</a>
-			<a href="#" class="button button_green">Регистрация</a>
+			<a href="#" class="button login-switch">Вход</a>
+			<a href="#" class="button button_green reg-switch">Регистрация</a>
 		</div>
 	</header>
 
@@ -402,6 +402,85 @@
 			</div>
 		</div>
 	</footer>
+
+	<div id="login-popup" class="popup corner-tag-top corner-tag-bottom corner-tag-bottom_right corner-tag-top_left">
+		<div class="login-links spacing-bottom-40">
+			<a href="#" class="login-link login-switch active">Вход</a>
+			<a href="#" class="login-link reg-switch">Регистрация</a>
+		</div>
+		<form action="" class="login-form">
+			<div class="popup-header spacing-bottom-40">Для продолжения необходимо войти</div>
+			<div class="filter-group filter-group_fullw">
+				<div class="filter"> 
+					<div class="filter__name">Логин: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Ваш логин">
+					</div>
+				</div>
+			</div>
+			<div class="filter-group filter-group_fullw">
+				<div class="filter">
+					<div class="filter__name">Пароль: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Введите пароль">
+					</div>
+				</div>
+			</div>
+			<div class="filter-group filter-group_fullw">
+				<div class="filter">
+					<div class="filter__input">
+						<a href="#" class="button button_green">Войти</a>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action="" class="registration-form" style="display: none;">
+			<div class="popup-header spacing-bottom-40">Для продолжения необходимо зарегистрироваться</div>
+			<div class="filter-group">
+				<div class="filter">
+					<div class="filter__name">Логин: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Ваш логин">
+					</div>
+				</div>
+				<div class="filter">
+					<div class="filter__name">Пароль: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Введите пароль">
+					</div>
+				</div>
+			</div>
+			<div class="filter-group">
+				<div class="filter">
+					<div class="filter__name">Email: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Ваш email">
+					</div>
+				</div>
+				<div class="filter">
+					<div class="filter__name">Повторите пароль: </div>
+					<div class="filter__input">
+						<input type="text" class="main-input" placeholder="Повторите пароль">
+					</div>
+				</div>
+			</div>
+			<div class="filter-group">
+				<div class="filter filter_radio">
+					<div class="radio-input">
+						<input type="radio" id="agreed" name="agreed"> <label for="agreed">Согласен с <a href="#" class="underline-link">правилами</a></label>
+					</div>
+				</div>
+				<div class="filter">
+					<div class="filter__input">
+						<a href="#" class="button button_green">Регистрация</a>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<div class="close-popup">x</div>
+	</div>
+	<div class="popup-overlay"></div>
 
 	<script src="js/scripts.min.js"></script>
 

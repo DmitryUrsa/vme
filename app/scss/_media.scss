@@ -70,6 +70,11 @@
 
 // ≥992px
 @include media-breakpoint-down(md) {
+	.popup {
+		padding-right: 50px;
+		padding-left: 50px;
+		width: 550px;
+	}	
 	.flex-table {
 		&__col {
 			max-width: 33% !important;
@@ -166,6 +171,21 @@
 
 // ≥576px
 @include media-breakpoint-down(xs) {
+	.popup {
+		width: 100%;
+	}
+	.login-link {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	.filter-group {
+		flex-wrap: wrap;
+		.filter {
+			max-width: 100%;
+		}
+	}
 	.filter-wrapper {
 		padding: 25px 30px;
 	}
