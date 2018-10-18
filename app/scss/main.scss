@@ -19,7 +19,7 @@ body {
 	font-family: $default-font;
 	overflow-x: hidden;
 	color: $text;
-	background: #080808 url(/img/background.jpg) center top;
+	background: #080808 url(https://dmitryursa.github.io/vme/app/img/background.jpg) center top;
 	background-size: cover;
 	background-repeat: no-repeat;	
 	input, textarea {
@@ -257,7 +257,7 @@ a {
 }
 
 .server {
-	background: #1a1a21 url(/img/server-card-bg.png) center center;
+	background: #1a1a21 url(https://dmitryursa.github.io/vme/app/img/server-card-bg.png) center center;
 	background-size: cover;
 	width: 220px;
 	padding: 20px 15px;
@@ -299,7 +299,7 @@ a {
 		content: '';
 		height: 70px;
 		width: 73px;
-		background-image: url(/img/top-right-corner.svg);
+		background-image: url(https://dmitryursa.github.io/vme/app/img/top-right-corner.svg);
 		background-repeat: no-repeat;
 		position: absolute;
 	}
@@ -324,7 +324,7 @@ a {
 		content: '';
 		height: 70px;
 		width: 73px;
-		background-image: url(/img/top-right-corner.svg);
+		background-image: url(https://dmitryursa.github.io/vme/app/img/top-right-corner.svg);
 		background-repeat: no-repeat;
 		position: absolute;
 	}
@@ -409,7 +409,7 @@ a {
 			content: '';
 			width: 11px;
 			height: 6px;
-			background-image: url(/img/caret.png);
+			background-image: url(https://dmitryursa.github.io/vme/app/img/caret.png);
 			right: 15px;
 			top: calc(50% - 3px);
 			transition: all 100ms ease;
@@ -844,7 +844,7 @@ a {
   position: relative;
   &::before {
   	content: '';
-  	background-image: url(/img/arrow.png);
+  	background-image: url(https://dmitryursa.github.io/vme/app/img/arrow.png);
   	width: 21px;	
   	height: 14px;	
   	display: inline-block;
@@ -1066,7 +1066,7 @@ a {
 	display: none;
 	border-radius: 3px;
 	z-index: 350;	
-	background-image: url(/img/popup-bg.jpg);
+	background-image: url(https://dmitryursa.github.io/vme/app/img/popup-bg.jpg);
 	background-size: cover;
 	background-color: #0d0d0d;
 	padding: 50px 100px;
