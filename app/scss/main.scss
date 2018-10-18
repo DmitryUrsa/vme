@@ -19,7 +19,7 @@ body {
 	font-family: $default-font;
 	overflow-x: hidden;
 	color: $text;
-	background: #080808 url(../app/img/background.jpg) center top;
+	background: #080808 url(/img/background.jpg) center top;
 	background-size: cover;
 	input, textarea {
 		border: #666 1px solid;
@@ -256,7 +256,7 @@ a {
 }
 
 .server {
-	background: #1a1a21 url(../app/img/server-card-bg.png) center center;
+	background: #1a1a21 url(/img/server-card-bg.png) center center;
 	background-size: cover;
 	width: 220px;
 	padding: 20px 15px;
@@ -298,7 +298,7 @@ a {
 		content: '';
 		height: 70px;
 		width: 73px;
-		background-image: url(../app/img/top-right-corner.svg);
+		background-image: url(/img/top-right-corner.svg);
 		background-repeat: no-repeat;
 		position: absolute;
 	}
@@ -323,7 +323,7 @@ a {
 		content: '';
 		height: 70px;
 		width: 73px;
-		background-image: url(../app/img/top-right-corner.svg);
+		background-image: url(/img/top-right-corner.svg);
 		background-repeat: no-repeat;
 		position: absolute;
 	}
@@ -408,7 +408,7 @@ a {
 			content: '';
 			width: 11px;
 			height: 6px;
-			background-image: url(../app/img/arrow.png);
+			background-image: url(/img/arrow.png);
 			right: 15px;
 			top: calc(50% - 3px);
 			transition: all 100ms ease;
@@ -843,7 +843,7 @@ a {
   position: relative;
   &::before {
   	content: '';
-  	background-image: url(../app/img/arrow.png);
+  	background-image: url(/img/arrow.png);
   	width: 21px;	
   	height: 14px;	
   	display: inline-block;
