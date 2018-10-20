@@ -73,7 +73,7 @@ $(function() {
 		$('#login-popup .login-switch').removeClass('active');
 		$('#login-popup .reg-switch').addClass('active');
 		$('.popup-overlay').show();
-		$([document.documentElement, document.body]).animate({
+		$([document.documentElement , document.body]).animate({
         scrollTop: $("#login-popup").offset().top
     }, 500);
 	});
@@ -85,7 +85,9 @@ $(function() {
     values: [ 8, 64 ],
     slide: function( event, ui ) {
       $( ".price-range-min" ).text( ui.values[ 0 ] );
+      $( "#filter-min-players" ).val( ui.values[ 0 ] );
       $( ".price-range-max" ).text( ui.values[ 1 ] );
+      $( "#filter-min-players" ).val( ui.values[ 1 ] );
     }
   });
   $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
